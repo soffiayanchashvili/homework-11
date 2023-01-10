@@ -147,6 +147,49 @@ header li:last-child::after{
     width: 100%;
     margin-top: 20px;
 }
+.h4{
+    margin: 90px;
+}
+.image{
+    height: 250px;
+    width: 250px;
+    display: flex;
+}
+.images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    padding-left: 20px;
+    padding-top: 40px;
+    width: 250px;
+    height: 150px;
+    background-color: #F7F7F7;
+}
+.box p:first-child{
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    color: #000000;
+}
+.box p:last-child{
+    font-size: x-small;
+    color: #797777;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.orange{
+    padding: 20px;
+    width: 159px;
+    background-color: orange;
+}
+.orange p{
+    font-size: small;
+    color: white;
+}
 @media(max-width:768px){
     .burger{
         display: flex;
