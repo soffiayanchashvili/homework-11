@@ -190,6 +190,55 @@ header li:last-child::after{
     font-size: small;
     color: white;
 }
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+    grid-auto-rows: 400px;
+    grid-gap: 10px;
+    text-align: center;
+}
+.tablets{
+    background-color: #F7F7F7;
+    padding: 40px;
+}
+.tablet{
+    background-color: coral;
+    padding: 40px;
+    text-align: left;
+}
+.tablet p{
+    padding-top: 10px;
+    letter-spacing: 0.28px;
+}
+.tablet label{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.tablet input{
+    height: 40px;
+    width: 300px;
+    border: 3px solid  blue;
+}
+.tablet button{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+.grid h5{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.grid ul{
+    list-style: none;
+}
+.grid li{
+    font: normal normal normal 11px/50px Arial;
+    letter-spacing: 0.88px;
+    color: #959595;}
 @media(max-width:768px){
     .burger{
         display: flex;
