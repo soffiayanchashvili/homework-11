@@ -191,7 +191,6 @@ header li:last-child::after{
     color: white;
 }
 .grid{
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
     grid-auto-rows: 400px;
